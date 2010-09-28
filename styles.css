@@ -1,0 +1,198 @@
+/* COLORS
+	Color names from http://cloford.com/resources/colours/500col.htm 
+	lavenderblush 3 #CDC1C5
+	lavenderblush 4 #8B8386
+	gray 24 #3D3D3D
+	plum 4 #8B668B
+*/
+
+body {
+	background-color: white;
+	color: #3D3D3D;
+	}
+
+h1 {
+	color: white;
+	}
+
+h2,h3,h5,h6 {
+	color: #8B8386;
+	}
+
+h4 {
+	color: #8B668B;
+	}
+
+a {
+	color: #8B668B;
+	}
+
+#nav a {
+	color: #CDC1C5;
+	}
+	
+#header {
+	background-color: #8B8386;
+	}
+	
+div#header li {
+	color: white;
+	}
+
+div#header a {
+	color: white;
+	}	
+	
+/* BODY STYLES */
+body {	
+	margin-top: 30px;
+	margin-left: 50px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	}
+	
+p {
+	margin-top: 5px;
+	margin-bottom: 30px;
+	margin-left: 20px;
+	margin-right: 50px;
+	}
+
+ul {
+	margin-top: 5px;
+	margin-bottom: 30px;
+	margin-left: 50px;
+	}
+
+ul li {
+	list-style-image: none;
+	list-style-type: disc;
+	}
+	
+ul.nested-list {
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 50px;
+	}
+	
+ul.nested-list li {
+	list-style-image: none;
+	list-style-type: circle;
+	}
+	
+/* HEADING STYLES */
+h1,h2,h3,h4,h5,h6 {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	}
+	
+h1 {
+	font-weight: bold;	
+	font-size: 200%;
+	}
+	
+h2 {
+	font-weight: bold;	
+	font-size: 150%;
+	font-style: italic;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	}
+	
+h3 {
+	font-weight: bold;	
+	font-size: 170%;
+	border-bottom: 1px dotted #8B8386;
+	padding: 5px; 
+	}
+	
+h4 {
+	font-weight: bold;	
+	font-size: 130%;
+	margin-top: 10px;
+	margin-bottom: 0;
+	}
+	
+h5 {
+	font-weight: bold;
+	font-size: 100%;
+	margin-top: 5px;
+	margin-bottom: 0;
+	margin-left: 20px;
+	}
+	
+h6 { 
+	font-weight: bold;
+	font-size: 95%;
+	font-style: italic; 
+	margin-top: 2px;
+	margin-bottom: 0;
+	margin-left: 20px;
+	}
+
+
+/* LINK STYLES */
+a,a:link {
+	text-decoration: none;
+	font-weight: bold;
+	}
+
+a:hover,a:active,a:focus {
+	text-decoration: underline;
+	}
+
+	
+/* DIV AND CLASS STYLES */
+
+#header {
+	padding: 15px;
+	margin-left: -20px
+	}
+	
+div#header li {
+	list-style-type: none;
+	font-style: italic;
+	font-size: 90%;
+	line-height: 1.5;
+	}
+	
+div#header ul {
+	text-align: right;
+	position: absolute;
+	top: 30px;
+	right: 15px;
+	}
+
+div#header a {
+	font-weight: normal;
+	}
+
+#nav a {
+	font-weight: normal;
+	font-size: 80%;
+	}	
+	
+/* imagegallery code adapted from http://www.alistapart.com/articles/practicalcss/ */
+div.imagegallery {
+	float: left;
+	padding: 0 5px 0 20px;
+	}
+
+div.imagegallery p {
+	text-align: center;
+	font-size: 80%;
+	font-style: italic;
+	margin: 0 0 30px 0;
+	}
+
+div.imagegallery a {
+	text-align: center;
+	font-style: normal;
+	}
+	
+div.imagegallery + h3 {
+	clear: both;
+	}
+		
+/* OTHER STYLES */
+cite {
+	font-style: italic;
+	}
